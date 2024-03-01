@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.navbar_container {
+    margin-left: 2rem !important;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.card-price-container {
+    height: 42px;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.card-location {
+    width: 90% !important;
+}
+
+.mapita {
+    width: auto;
+    height: 40px;
+    display: flex;
+}
